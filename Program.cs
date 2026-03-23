@@ -15,7 +15,7 @@ namespace csharp
             int age = 18;
             const double pi = 3.1415926f;
 
-            Console.WriteLine(x + y);
+            Console.WriteLine("x + y = " + x + y);
             Console.WriteLine(name + chr);
             Console.WriteLine("Im " + username + " and im " + age + " years old");
             Console.WriteLine("Pi = " + pi);
