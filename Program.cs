@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace csharp
 {
@@ -15,8 +16,10 @@ namespace csharp
             int age = 18;
             const double pi = 3.1415926f;
 
-            Console.WriteLine("x + y = " + x + y);
-            Console.WriteLine(name + chr);
+            double z = Convert.ToDouble(x) + 0.4;
+
+            Console.WriteLine("x + y + z = " + x + y + z);
+            Console.WriteLine(name + chr + "\n" + name.GetType() + " " + chr.GetType());
             Console.WriteLine("Im " + username + " and im " + age + " years old");
             Console.WriteLine("Pi = " + pi);
         }
