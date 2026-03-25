@@ -8,7 +8,6 @@ namespace csharp
     {
         private static void Main(string[] args)
         {
-            int score = 0;
             bool running = true;
             while (running)
             {
