@@ -11,8 +11,11 @@ namespace csharp
             for (int i = 0; i < 10; i++)
             {
                 int y = Convert.ToInt32(Math.Pow(x, i));
-                double z = Math.Sqrt(x);
                 Console.WriteLine(y);
+            }
+            for (int i = 0; i < 10; i++)
+            {
+                double z = Math.Sqrt(x);
                 Console.WriteLine(z);
             }
         }
