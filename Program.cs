@@ -7,13 +7,14 @@ namespace csharp
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Enter name: ");
-            String name = Console.ReadLine();
-
-            Console.WriteLine("Enter age: ");
-            String age = Console.ReadLine();
-
-            Console.WriteLine("Your name is " + name + " and you are " + age + " years old");
+            int x = 2; 
+            for (int i = 0; i < 10; i++)
+            {
+                int y = Convert.ToInt32(Math.Pow(x, i));
+                double z = Math.Sqrt(x);
+                Console.WriteLine(y);
+                Console.WriteLine(z);
+            }
         }
     }
 }
